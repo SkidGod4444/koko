@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Tos() {
+export default function About() {
   return (
     <div>
-      Tos
+      About
     </div>
   )
 }
