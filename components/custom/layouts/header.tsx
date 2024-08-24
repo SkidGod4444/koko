@@ -13,7 +13,7 @@ export default function Header() {
         </Link>
       </div>
       <div className="flex flex-1 items-center justify-center gap-2 md:gap-5">
-        <Button variant="outline">
+        <Button variant="outline" className="hidden md:flex">
           <IconCarambola className="size-5 mr-2 group:hover:text-yellow-500" />{" "}
           Legitimacy
         </Button>

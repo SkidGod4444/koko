@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/custom/layouts/header";
 import { ThemeProvider } from "@/components/custom/theme.provider";
 import { Toaster } from "@/components/ui/sonner";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Bricolage_Grotesque({ subsets: ["latin"] });
 
@@ -31,6 +32,9 @@ export default function RootLayout({
           {children}
         </ThemeProvider>
         <Toaster />
+
+        {/* VERCEL LOGS */}
+        <Analytics/>
       </body>
     </html>
   );

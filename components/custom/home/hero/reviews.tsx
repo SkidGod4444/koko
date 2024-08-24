@@ -40,7 +40,7 @@ export default function Reviews() {
     {
       name: "Michael Clark",
       role: "Gambler",
-      avatar: "/assets/re-4-boy.jpg",
+      avatar: "/assets/re-4-boy.png",
       fallback: "MC",
       review:
         "The AI features on Koko.fun are impressive. It helps me make smarter bets and increase my winnings.",
