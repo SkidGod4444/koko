@@ -4,6 +4,7 @@ import Hero from "@/components/custom/home/hero/hero";
 import KeyFeatures from "@/components/custom/home/hero/key.features";
 import Reviews from "@/components/custom/home/hero/reviews";
 import Footer from "@/components/custom/layouts/footer";
+import Header from "@/components/custom/layouts/header";
 import { IconAlarm, IconUser } from "@tabler/icons-react";
 import { useEffect } from "react";
 import { toast } from "sonner";
@@ -47,6 +48,7 @@ export default function Home() {
   return (
     <div className="flex h-full w-full px-3 items-center justify-center">
       <div className="flex flex-col mt-5 min-h-screen w-full">
+        <Header/>
         <Hero />
         <KeyFeatures />
         <Reviews />

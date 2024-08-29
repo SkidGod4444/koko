@@ -6,7 +6,7 @@ import { IconCarambola, IconCoin } from "@tabler/icons-react";
 
 export default function Header() {
   return (
-    <header className="fixed top-0 left-0 right-0 flex max-w-full border-b mx-auto px-3 py-2 z-50 bg-white/30 backdrop-blur-md dark:bg-black/30">
+    <header className="fixed top-0 left-0 right-0 flex min-h-[60px] md:min-h-[70px] items-center max-w-full border-b mx-auto px-3 py-2 z-50 backdrop-blur-md bg-background/80">
       <div className="flex h-full justify-between items-center w-full">
         <Link href="/">
           <Logo />
